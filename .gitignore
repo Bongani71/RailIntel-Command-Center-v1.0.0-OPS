@@ -1,0 +1,40 @@
+# Python execution boundaries
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Strict Operational Logging Files (DO NOT PUBLISH)
+*.log
+railintel_ops_system.log
+railintel_audit_trail.log
+
+# IDE & Config
+.idea/
+.vscode/
+.DS_Store
+
+# Streamlit Caching
+.streamlit/

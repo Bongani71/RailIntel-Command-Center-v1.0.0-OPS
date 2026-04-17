@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <!-- Transparent background for versatile UI placement -->
+  <rect width="100%" height="100%" fill="none" />
+  
+  <!-- Icon: Tracks converting to Data Waves -->
+  <g transform="translate(20, 20)">
+    <!-- Rail Left -->
+    <path d="M 15 80 L 35 15 L 38 15 L 18 80 Z" fill="#38bdf8" />
+    <!-- Rail Right -->
+    <path d="M 60 80 L 45 15 L 48 15 L 63 80 Z" fill="#ffffff" />
+    
+    <!-- Sleepers (horizontal ties) -->
+    <rect x="18" y="72" width="43" height="1.5" fill="#1f2937" />
+    <rect x="23" y="58" width="33" height="1.5" fill="#1f2937" />
+    <rect x="28" y="44" width="24" height="1.5" fill="#1f2937" />
+    <rect x="33" y="30" width="15" height="1.5" fill="#1f2937" />
+    
+    <!-- Signal/Data Waves Erupting -->
+    <path d="M 40 10 Q 55 -5, 75 10 T 100 -5" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 45 18 Q 60 3, 80 18 T 105 3" fill="none" stroke="#ffffff" stroke-width="1.5" />
+    <path d="M 50 26 Q 65 11, 85 26 T 110 11" fill="none" stroke="#38bdf8" stroke-width="1" />
+  </g>
+  
+  <!-- Text: RAILINTEL -->
+  <g transform="translate(130, 75)">
+    <text x="0" y="0" font-family="monospace, 'Courier New'" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="4">RAIL</text>
+    <text x="135" y="0" font-family="monospace, 'Courier New'" font-size="44" font-weight="900" fill="#38bdf8" letter-spacing="4">INTEL</text>
+  </g>
+</svg>
